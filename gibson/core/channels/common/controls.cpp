@@ -2,6 +2,7 @@
 #include <glfw3.h>
 extern GLFWwindow* window; // The "extern" keyword here is to access the variable "window" declared in tutorialXXX.cpp. This is a hack to keep the tutorials simple. Please avoid this.
 
+#define GLM_ENABLE_EXPERIMENTAL
 // Include GLM
 #include <glm/glm.hpp>
 //#include <glm/gtx/rotate_vector.hpp>
@@ -12,7 +13,6 @@ extern GLFWwindow* window; // The "extern" keyword here is to access the variabl
 #include <stdio.h>
 #include <cassert>
 #include <cstring>
-
 
 using namespace glm;
 

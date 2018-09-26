@@ -15,7 +15,7 @@
 //#include <GL/glew.h>
 #include <GL/glut.h>
 #include "lodepng.h"
-
+#define GLM_ENABLE_EXPERIMENTAL
 // Include GLM
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
